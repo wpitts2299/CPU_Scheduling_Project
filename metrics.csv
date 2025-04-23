@@ -1,0 +1,7 @@
+Algorithm,AWT,ATT,CpuUtil,Throughput,ResponseTime
+First Come, First Served,9.00,15.50,100.00,0.1538,9.00
+Shortest Job First,7.25,13.75,100.00,0.1538,7.25
+Round Robin,12.25,18.75,100.00,0.1538,6.50
+Priority Scheduling,9.75,16.25,100.00,0.1538,9.75
+Shortest Remaining Time First,5.75,12.25,100.00,0.1538,3.75
+Multi-Level Feedback Queue,11.50,18.00,100.00,0.1538,3.00
