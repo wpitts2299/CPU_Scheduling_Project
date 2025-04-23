@@ -9,6 +9,7 @@ The project includes:
 - A LaTeX report (`report.pdf`) summarizing the implementation, test results, and analysis.
 - Charts generated directly in LaTeX using `pgfplots` to visualize AWT and ATT for the large scale test.
 
+
 ## Requirements
 ### For Running the Simulator
 - **.NET Core SDK** (version 6.0 or later recommended)
@@ -22,3 +23,5 @@ The project includes:
 - Ensure the `pgfplots` package is available (included by default in most LaTeX distributions)
 
 ## Setup and Running the Simulator
+
+1. Run code in file while changing input file path in code
