@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
@@ -140,7 +140,7 @@ namespace CpuSchedulingSimulator
                 currentProcess.CompletionTime = currentTime;
                 currentProcess.TurnaroundTime = currentTime - currentProcess.ArrivalTime;
                 currentProcess.WaitingTime = currentProcess.TurnaroundTime - currentProcess.BurstTime;
-                process.IsScheduled = true;
+                currentProcess.IsScheduled = true;
                 completed.Add(currentProcess);
             }
             return completed;
